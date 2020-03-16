@@ -1,4 +1,4 @@
-from ._video_opt import (
+from _video_opt import (
     Timebase,
     VideoMetaData,
     _HAS_VIDEO_OPT,
@@ -9,7 +9,7 @@ from ._video_opt import (
     _read_video_timestamps_from_file,
     _read_video_timestamps_from_memory,
 )
-from .video import (
+from video import (
     read_video,
     read_video_from_memory,
     read_video_meta_data_from_memory,
