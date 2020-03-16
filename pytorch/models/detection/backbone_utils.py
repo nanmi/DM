@@ -3,8 +3,13 @@ from torch import nn
 from torchvision.ops.feature_pyramid_network import FeaturePyramidNetwork, LastLevelMaxPool
 
 from torchvision.ops import misc as misc_nn_ops
+
+# import sys
+# sys.path.append("..")
+# from _utils import IntermediateLayerGetter
+# import resnet
+
 from .._utils import IntermediateLayerGetter
-from .. import resnet
 
 
 class BackboneWithFPN(nn.Module):

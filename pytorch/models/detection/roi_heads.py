@@ -10,7 +10,7 @@ from torchvision.ops import misc as misc_nn_ops
 
 from torchvision.ops import roi_align
 
-from . import _utils as det_utils
+import _utils as det_utils
 
 from torch.jit.annotations import Optional, List, Dict, Tuple
 
