@@ -6,10 +6,9 @@ from torchvision.ops import misc as misc_nn_ops
 
 # import sys
 # sys.path.append("..")
-# from _utils import IntermediateLayerGetter
-# import resnet
+from pytorch.models._utils import IntermediateLayerGetter
 
-from .._utils import IntermediateLayerGetter
+from pytorch.models import resnet
 
 
 class BackboneWithFPN(nn.Module):
